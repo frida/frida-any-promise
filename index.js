@@ -1,5 +1,3 @@
-require('any-promise/register')('frida', {
-  Promise: Promise
-});
+'use strict';
 
-module.exports = require('any-promise/');
+module.exports = Promise;

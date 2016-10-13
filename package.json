@@ -29,8 +29,5 @@
   },
   "bugs": {
     "url": "http://github.com/frida/frida-any-promise/issues"
-  },
-  "dependencies": {
-    "any-promise": "^1.3.0"
   }
 }
