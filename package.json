@@ -1,0 +1,36 @@
+{
+  "name": "frida-any-promise",
+  "version": "1.0.0",
+  "authors": [
+    "Frida Developers"
+  ],
+  "description": "Frida compatibility shim for the “any-promise” module",
+  "keywords": [
+    "frida"
+  ],
+  "homepage": "http://www.frida.re",
+  "main": "index.js",
+  "browserify": {
+    "transform": [
+      [
+        "babelify",
+        {
+          "presets": [
+            "es2015"
+          ]
+        }
+      ]
+    ]
+  },
+  "license": "LGPL-2.0 WITH WxWindows-exception-3.1",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/frida/frida-any-promise.git"
+  },
+  "bugs": {
+    "url": "http://github.com/frida/frida-any-promise/issues"
+  },
+  "dependencies": {
+    "any-promise": "^1.3.0"
+  }
+}
